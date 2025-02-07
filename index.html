@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="style.css"> 
+ </head>
+ <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+       <div class="choice" id="rock">
+          <img src="image/rock.jpeg">
+       </div>
+       <div class="choice" id="paper">
+          <img src="image/paper.jpeg">
+       </div>
+       <div class="choice" id="scissors">
+          <img src="image/scissor.jpeg">
+    </div>
+    <div class="sounds">
+      <audio id="click" src="sounds/click.mp3"></audio>
+      <audio id="loose" src="sounds/loose.mp3"></audio>
+      <audio id="win" src="sounds/win.mp3"></audio>
+    </div>
+    </div>
+    <div class="score">
+       <div class="myscore">
+          <p id="userid">0</p>
+          <p>user</p>
+       </div>
+       <div class="myscore">
+          <p id="compid">0</p>
+          <p>Computer</p>
+       </div>
+    </div>
+    <div class="message">
+       <p id="msg">Play your move</p>
+    </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
